@@ -4,11 +4,18 @@ Clean/minimal Gist styling. Easily customize by changing SCSS variables. Optiona
 
 ## Getting Started
 
-Download repository. Choose the demo that best suits your project (light or dark). Change variables in the relevant SCSS file (light or dark) as desired for quick changes.
+Download repository. Choose the demo that best suits your project (light or dark). Change variables in the relevant SCSS file (light or dark) as desired for quick changes. 
 
 ```
 $gist-text-color: #000000;
 $gist-background-color: #ffffff;
+```
+
+Remove the import for demo styles. 
+
+```
+// import for demo styling 
+@import 'styles';
 ```
 
 Fine tune SCSS if needed. 
