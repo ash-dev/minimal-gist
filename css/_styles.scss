@@ -1,0 +1,21 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body { padding: 10vh 0; background: $gist-background-color; font-family: 'Montserrat', sans-serif; text-align: center; }
+h1 { color: $gist-text-color; font-weight: 700; }
+p { color: darken( $gist-text-color, 40% ) !important; font-weight: 400; }
+h2 { color: darken( $gist-text-color, 60% ) !important; font-weight: 700; }
+a { color: darken( $gist-text-color, 20% ) }
+
+
+section { width: (100% / 4); display: inline-block; vertical-align: top; padding: 20px; 
+	p { 
+		margin-top: 50px; font-size: 12px;
+		a { display: block; text-decoration: none; margin-top:10px; }
+	}
+} 
+section:first-of-type { padding-left:40px; }
+section:last-of-type { padding-right:40px; }
+

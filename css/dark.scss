@@ -1,0 +1,76 @@
+$gist-text-color: #ffffff; 
+$gist-background-color: #000000; 
+
+// import for demo styling 
+@import 'styles';
+
+.gist {
+  .gist-file {
+    border: 0px !important;
+    border-bottom: 0px !important;
+    border-radius: 0px !important;
+  }
+  .blob-code-inner {
+	white-space: -moz-pre-wrap;
+	white-space: -hp-pre-wrap; 
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap; 
+    white-space: pre-wrap !important;
+	white-space: pre-line; 
+	word-wrap: break-word; 
+	word-break: break-all;
+  }
+  .blob-wrapper,
+  .gist-data {
+    border-radius: 0px !important;
+    border: 0px !Important;
+  }
+  .highlight {
+    background: lighten( $gist-background-color, 10% ) !important;
+  }
+  .gist-meta {
+    padding: 5px 0px !important;
+    background-color: transparent !important;
+    color: darken( $gist-text-color, 60% ) !important;
+    a {
+      color: darken( $gist-text-color, 30% ) !important;
+	  }
+  }
+  .blob-num {
+    display: none !important;
+  }
+  .blob-wrapper {
+    padding: 10px !important;
+    background: lighten( $gist-background-color, 10% ) !important;
+  }
+  .blob-wrapper table {
+    width: 100% !important;
+  }
+}
+
+.pl-c { 
+	color: darken( $gist-text-color, 60% ) !important;
+}
+
+.blob-code,
+.blob-code-inner,
+.pl-ent,
+.pl-v,
+.pl-smw,
+.pl-smi,
+.pl-s .pl-s1,
+.pl-c1,
+.pl-s .pl-v,
+.pl-s,
+.pl-pds,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sre,
+.pl-sr .pl-sra,
+.pl-bu,
+.pl-k,
+.pl-e,
+.pl-en {
+	color: $gist-text-color !important;
+}

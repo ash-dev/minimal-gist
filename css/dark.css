@@ -1,0 +1,102 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  padding: 10vh 0;
+  background: #000000;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+
+h1 {
+  color: #ffffff;
+  font-weight: 700; }
+
+p {
+  color: #999999 !important;
+  font-weight: 400; }
+
+h2 {
+  color: #666666 !important;
+  font-weight: 700; }
+
+a {
+  color: #cccccc; }
+
+section {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px; }
+  section p {
+    margin-top: 50px;
+    font-size: 12px; }
+    section p a {
+      display: block;
+      text-decoration: none;
+      margin-top: 10px; }
+
+section:first-of-type {
+  padding-left: 40px; }
+
+section:last-of-type {
+  padding-right: 40px; }
+
+.gist .gist-file {
+  border: 0px !important;
+  border-bottom: 0px !important;
+  border-radius: 0px !important; }
+.gist .blob-code-inner {
+  white-space: -moz-pre-wrap;
+  white-space: -hp-pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: pre-wrap !important;
+  white-space: pre-line;
+  word-wrap: break-word;
+  word-break: break-all; }
+.gist .blob-wrapper,
+.gist .gist-data {
+  border-radius: 0px !important;
+  border: 0px !Important; }
+.gist .highlight {
+  background: #1a1a1a !important; }
+.gist .gist-meta {
+  padding: 5px 0px !important;
+  background-color: transparent !important;
+  color: #666666 !important; }
+  .gist .gist-meta a {
+    color: #b3b3b3 !important; }
+.gist .blob-num {
+  display: none !important; }
+.gist .blob-wrapper {
+  padding: 10px !important;
+  background: #1a1a1a !important; }
+.gist .blob-wrapper table {
+  width: 100% !important; }
+
+.pl-c {
+  color: #666666 !important; }
+
+.blob-code,
+.blob-code-inner,
+.pl-ent,
+.pl-v,
+.pl-smw,
+.pl-smi,
+.pl-s .pl-s1,
+.pl-c1,
+.pl-s .pl-v,
+.pl-s,
+.pl-pds,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sre,
+.pl-sr .pl-sra,
+.pl-bu,
+.pl-k,
+.pl-e,
+.pl-en {
+  color: #ffffff !important; }
