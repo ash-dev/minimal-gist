@@ -1,5 +1,5 @@
-$gist-text-color: #ffffff;
-$gist-background-color: #000000;
+$gist-text-color: #000000;
+$gist-background-color: #ffffff;
 
 // import for demo styling 
 @import 'styles';
@@ -29,9 +29,9 @@ $gist-background-color: #000000;
     .gist-meta {
         padding: 5px 0px !important;
         background-color: transparent !important;
-        color: darken( $gist-text-color, 60%) !important;
+        color: lighten( $gist-text-color, 60%) !important;
         a {
-            color: darken( $gist-text-color, 30%) !important;
+            color: lighten( $gist-text-color, 30%) !important;
         }
     }
     .blob-num {
@@ -39,10 +39,10 @@ $gist-background-color: #000000;
     }
     .blob-wrapper {
         padding: 10px !important;
-        background: lighten( $gist-background-color, 10%) !important;
+        background: darken( $gist-background-color, 5%) !important;
     }
 	.highlight {
-	    background: lighten( $gist-background-color, 10%) !important;
+	    background: darken( $gist-background-color, 5%) !important;
 	}
     .blob-wrapper table {
         width: 100% !important;
@@ -51,7 +51,7 @@ $gist-background-color: #000000;
 
 // comment color
 .pl-c {
-    color: darken( $gist-text-color, 60%) !important;
+    color: lighten( $gist-text-color, 60%) !important;
 }
 
 // all other text colors

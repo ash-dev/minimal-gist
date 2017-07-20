@@ -5,24 +5,24 @@
 
 body {
   padding: 10vh 0;
-  background: #000000;
+  background: #ffffff;
   font-family: 'Montserrat', sans-serif;
   text-align: center; }
 
 h1 {
-  color: #ffffff;
+  color: #000000;
   font-weight: 700; }
 
 p {
-  color: #999999 !important;
+  color: black !important;
   font-weight: 400; }
 
 h2 {
-  color: #666666 !important;
+  color: black !important;
   font-weight: 700; }
 
 a {
-  color: #cccccc; }
+  color: black; }
 
 section {
   width: 25%;
@@ -63,21 +63,21 @@ section:last-of-type {
 .gist .gist-meta {
   padding: 5px 0px !important;
   background-color: transparent !important;
-  color: #666666 !important; }
+  color: #999999 !important; }
   .gist .gist-meta a {
-    color: #b3b3b3 !important; }
+    color: #4d4d4d !important; }
 .gist .blob-num {
   display: none !important; }
 .gist .blob-wrapper {
   padding: 10px !important;
-  background: #1a1a1a !important; }
+  background: #f2f2f2 !important; }
 .gist .highlight {
-  background: #1a1a1a !important; }
+  background: #f2f2f2 !important; }
 .gist .blob-wrapper table {
   width: 100% !important; }
 
 .pl-c {
-  color: #666666 !important; }
+  color: #999999 !important; }
 
 .blob-code,
 .blob-code-inner,
@@ -99,4 +99,4 @@ section:last-of-type {
 .pl-k,
 .pl-e,
 .pl-en {
-  color: #ffffff !important; }
+  color: #000000 !important; }
