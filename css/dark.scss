@@ -1,57 +1,57 @@
-$gist-text-color: #ffffff; 
-$gist-background-color: #000000; 
+$gist-text-color: #ffffff;
+$gist-background-color: #000000;
 
 // import for demo styling 
 @import 'styles';
 
+// gist container/meta styling
 .gist {
-  .gist-file {
-    border: 0px !important;
-    border-bottom: 0px !important;
-    border-radius: 0px !important;
-  }
-  .blob-code-inner {
-	white-space: -moz-pre-wrap;
-	white-space: -hp-pre-wrap; 
-	white-space: -o-pre-wrap;
-	white-space: -pre-wrap; 
-    white-space: pre-wrap !important;
-	white-space: pre-line; 
-	word-wrap: break-word; 
-	word-break: break-all;
-  }
-  .blob-wrapper,
-  .gist-data {
-    border-radius: 0px !important;
-    border: 0px !Important;
-  }
-  .highlight {
-    background: lighten( $gist-background-color, 10% ) !important;
-  }
-  .gist-meta {
-    padding: 5px 0px !important;
-    background-color: transparent !important;
-    color: darken( $gist-text-color, 60% ) !important;
-    a {
-      color: darken( $gist-text-color, 30% ) !important;
-	  }
-  }
-  .blob-num {
-    display: none !important;
-  }
-  .blob-wrapper {
-    padding: 10px !important;
-    background: lighten( $gist-background-color, 10% ) !important;
-  }
-  .blob-wrapper table {
-    width: 100% !important;
-  }
+    .gist-file {
+        border: 0px !important;
+        border-bottom: 0px !important;
+        border-radius: 0px !important;
+    }
+    .blob-code-inner {
+        white-space: -moz-pre-wrap;
+        white-space: -hp-pre-wrap;
+        white-space: -o-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: pre-wrap !important;
+        white-space: pre-line;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+    .blob-wrapper,
+    .gist-data {
+        border-radius: 0px !important;
+        border: 0px !Important;
+    }
+    .gist-meta {
+        padding: 5px 0px !important;
+        background-color: transparent !important;
+        color: darken( $gist-text-color, 60%) !important;
+        a {
+            color: darken( $gist-text-color, 30%) !important;
+        }
+    }
+    .blob-num {
+        display: none !important;
+    }
+    .blob-wrapper {
+        padding: 10px !important;
+        background: lighten( $gist-background-color, 10%) !important;
+    }
+    .blob-wrapper table {
+        width: 100% !important;
+    }
 }
 
-.pl-c { 
-	color: darken( $gist-text-color, 60% ) !important;
+// comment color
+.pl-c {
+    color: darken( $gist-text-color, 60%) !important;
 }
 
+// all other text colors
 .blob-code,
 .blob-code-inner,
 .pl-ent,
@@ -72,5 +72,5 @@ $gist-background-color: #000000;
 .pl-k,
 .pl-e,
 .pl-en {
-	color: $gist-text-color !important;
+    color: $gist-text-color !important;
 }
