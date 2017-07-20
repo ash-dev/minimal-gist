@@ -16,7 +16,13 @@ Fine tune SCSS if needed.
 ## Options Included
 
 ### Dark color scheme
+
+!(/images/demo-dark.jpg?raw=true)
+
 ### Light color scheme
+
+!(/images/demo-light.jpg?raw=true)
+
 ### Color-highlighted hex codes
 
-Optional js included to highlight hex codes by color. If not desired, simply leave out.
+Optional js included to highlight hex codes by color. See SCSS columns in previews above. If not desired, simply leave out.
