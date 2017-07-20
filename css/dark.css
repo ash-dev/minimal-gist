@@ -71,10 +71,10 @@ section:last-of-type {
 .gist .blob-wrapper {
   padding: 10px !important;
   background: #1a1a1a !important; }
+  .gist .blob-wrapper table {
+    width: 100% !important; }
 .gist .highlight {
   background: #1a1a1a !important; }
-.gist .blob-wrapper table {
-  width: 100% !important; }
 
 .pl-c {
   color: #666666 !important; }

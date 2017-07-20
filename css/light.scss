@@ -40,13 +40,13 @@ $gist-background-color: #ffffff;
     .blob-wrapper {
         padding: 10px !important;
         background: darken( $gist-background-color, 5%) !important;
+		table {
+        width: 100% !important;
+    	}
     }
 	.highlight {
 	    background: darken( $gist-background-color, 5%) !important;
 	}
-    .blob-wrapper table {
-        width: 100% !important;
-    }
 }
 
 // comment color
