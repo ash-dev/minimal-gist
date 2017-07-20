@@ -17,11 +17,11 @@ Fine tune SCSS if needed.
 
 ### Dark color scheme
 
-!(/images/demo-dark.jpg?raw=true)
+!(images/demo-dark.jpg?raw=true)
 
 ### Light color scheme
 
-!(/images/demo-light.jpg?raw=true)
+!(images/demo-light.jpg?raw=true)
 
 ### Color-highlighted hex codes
 
