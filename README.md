@@ -25,4 +25,6 @@ Fine tune SCSS if needed.
 
 ### Color-highlighted hex codes
 
-Optional js included to highlight hex codes by color. See SCSS columns in previews above. If not desired, simply leave out.
+![Color-highlighted hex codes](https://github.com/ash-dev/minimal-gist/blob/master/images/color-hightlight.jpg?raw=true)
+
+Optional js included to highlight hex codes by color. If not desired, simply leave out.
