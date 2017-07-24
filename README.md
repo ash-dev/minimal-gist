@@ -35,3 +35,11 @@ Fine tune SCSS if needed.
 ![Color-highlighted hex codes](https://github.com/ash-dev/minimal-gist/blob/master/images/color-hightlight.jpg?raw=true)
 
 Optional js included to highlight hex codes by color. If not desired, simply leave out.
+
+## Demo
+
+### Dark
+https://ash-dev.github.io/minimal-gist/demo-dark.html
+
+### Light
+https://ash-dev.github.io/minimal-gist/demo-light.html
