@@ -1,6 +1,6 @@
 # minimal-gist
 
-Clean/minimal Gist styling. Easily customize by changing SCSS variables. Optional color-highlighted hex codes.
+Clean/minimal Gist styling. Easily customize by changing SCSS variables. Optional js for color-highlighted hex codes.
 
 ## Demo
 
