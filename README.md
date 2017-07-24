@@ -2,6 +2,14 @@
 
 Clean/minimal Gist styling. Easily customize by changing SCSS variables. Optional color-highlighted hex codes.
 
+## Demo
+
+### Dark
+https://ash-dev.github.io/minimal-gist/demo-dark.html
+
+### Light
+https://ash-dev.github.io/minimal-gist/demo-light.html
+
 ## Getting Started
 
 Download repository. Choose the demo that best suits your project (light or dark). Change variables in the relevant SCSS file (light or dark) as desired for quick changes. 
@@ -35,11 +43,3 @@ Fine tune SCSS if needed.
 ![Color-highlighted hex codes](https://github.com/ash-dev/minimal-gist/blob/master/images/color-hightlight.jpg?raw=true)
 
 Optional js included to highlight hex codes by color. If not desired, simply leave out.
-
-## Demo
-
-### Dark
-https://ash-dev.github.io/minimal-gist/demo-dark.html
-
-### Light
-https://ash-dev.github.io/minimal-gist/demo-light.html
